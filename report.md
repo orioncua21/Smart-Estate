@@ -1,12 +1,9 @@
 Orion Cua
 
-Professor Pantelis Monogioudis
-
 CS 482 Section 102
 
-24 April 2022
 
-SmartEstate
+**SmartEstate**
 
 Abstract:
 
