@@ -33,7 +33,13 @@ Experiments:
 
 To analyze the results of my random forest implementation, I used the Mean-Squared Error (MSE) algorithm, a Root Mean-Squared Error (RMSE) algorithm and found the average deviation percentage of the predictions compared to the actual prices. The initial random forest model that I created incorporated 10 decision trees in the forest, as well as a bootstrap of 0.9 and a max depth of 3 for each tree in the forest. The results were as follows:
 
-![](RackMultipart20220425-1-j7y9vg_html_c53f1a5d69a1df36.png)
+MSE: 1583266400.0
+
+RMSE: 39790.2806
+
+Average Deviation: 27465.197
+
+Average Deviation %: 0.152755
 
 Given a small number of trees in the forest, it is clear that there is room for improvement. There have been some published works that have calculated the impact on the accuracy of their Random Forest implementation by toggling the number of trees in the forest and plotting the resulting MSE of each instance. The results indicated that there was no direct correlation between the number of trees in the forest and the overall accuracy of the results. A similar experiment was conducted to see the impact of the depth of each decision tree to the results. In this case, there did seem to be a correlation that indicated that the lower the tree depth, the higher the MSE would be, which means the less accurate the results are. However, at a certain point the deeper the depth of a tree, the less accurate the results become. There is no definite conclusion that can be created based on these experiments.
 
